@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+
+   >
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="ColourSpectrum"
+        android:id="@+id/tvSpectrum"/>
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="@string/red"
+        android:textColor="#ff0000"
+        android:id="@+id/tvRed"/>
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="@string/green"
+        android:textColor="#00ff00"
+        android:id="@+id/tvGreen"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="@string/blue"
+        android:textColor="#0000ff"
+        android:id="@+id/tvBlue"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="@string/yellow"
+        android:textColor="#ffff00"
+        android:id="@+id/tvYellow"/>
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="@string/indigo"
+        android:textColor="#4B0082"
+        android:id="@+id/tvIndigo"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="@string/violet"
+        android:textColor="#EE82EE"
+        android:id="@+id/tvViolet"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="@string/black"
+        android:textColor="#000000"
+        android:id="@+id/tvBlack"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="@string/white"
+        android:background="#000000"
+        android:textColor="@color/white"
+        android:id="@+id/tvWhite"/>
+
+
+
+
+
+    <!--   <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="239dp" />
+     -->
+
+</LinearLayout>
